@@ -158,7 +158,7 @@
   font-size: 18px;
   font-weight: normal;
   color: var(--block-text);
-  line-height: 23.4px;
+  line-height: 23.5px;
 }
 
 .link {
@@ -263,7 +263,6 @@
   height: 100vh;
   position: relative;
   background: var(--page-background);
-  height: 100vh;
   min-height: 668px;
 }
 
@@ -379,7 +378,6 @@
   .section {
     grid-template-columns: 1fr;
     padding: 40px 10px 9px 10px;
-    row-gap: 25px;
   }
 
   .reasons > .section__information-block {
