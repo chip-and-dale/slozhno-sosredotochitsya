@@ -5,6 +5,8 @@
   background: var(--header-background);
   background-color: var(--page-background);
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header {
@@ -148,7 +150,7 @@
   color: var(--accent-color);
 }
 
-.section__title {
+.section__title_head {
   line-height: 23.37px;
 }
 
