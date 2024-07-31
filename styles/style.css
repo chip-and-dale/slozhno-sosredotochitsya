@@ -2,7 +2,9 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  background: var(--header-background);
   background-color: var(--page-background);
+  background-attachment: fixed;
 }
 
 .header {
@@ -156,6 +158,7 @@
   font-size: 18px;
   font-weight: normal;
   color: var(--block-text);
+  line-height: 23.4px;
 }
 
 .link {
@@ -376,6 +379,7 @@
   .section {
     grid-template-columns: 1fr;
     padding: 40px 10px 9px 10px;
+    row-gap: 25px;
   }
 
   .reasons > .section__information-block {
