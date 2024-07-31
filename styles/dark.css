@@ -9,4 +9,13 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --page-background: #000028;
+  --header-title: #DB00FF;
+  --accent-color: #FF0070;
+  --block-title: #000028;
+  --block-title-background: #FF0070;
+  --block-text: #F1B2CE;
+  --header-background: url('../images/cover-image-dark.png');
+  --display-decoration: initial;
+  --theme-button-border: rgba(255, 0, 112, 0.4);
 }
