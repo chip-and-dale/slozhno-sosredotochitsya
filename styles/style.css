@@ -220,6 +220,7 @@
   font-size: 18px;
   font-weight: normal;
   color: var(--block-text);
+  line-height: 23.5px;
 }
 
 .gallery {
