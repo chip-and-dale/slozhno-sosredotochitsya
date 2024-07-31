@@ -19,3 +19,17 @@
   --display-decoration: initial;
   --theme-button-border: rgba(255, 0, 112, 0.4);
 }
+
+@media (prefers-color-scheme: dark) {
+  .page.theme_auto {
+    --page-background: #000028;
+    --header-title: #db00ff;
+    --accent-color: #ff0070;
+    --block-title: #000028;
+    --block-title-background: #ff0070;
+    --block-text: #f1b2ce;
+    --header-background: url("../images/cover-image-dark.png");
+    --display-decoration: initial;
+    --theme-button-border: rgba(255, 0, 112, 0.4);
+  }
+}

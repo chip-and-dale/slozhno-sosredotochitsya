@@ -19,3 +19,17 @@
   --display-decoration: none;
   --theme-button-border: rgba(50, 49, 45, 0.4);
 }
+
+@media (prefers-color-scheme: light) {
+  .page.theme_auto {
+    --page-background: #fff1f7;
+    --header-title: #ffc2e6;
+    --accent-color: #353430;
+    --block-title: #353430;
+    --block-title-background: #ff8dcb;
+    --block-text: #353430;
+    --header-background: url("../images/cover-image-light.png");
+    --display-decoration: none;
+    --theme-button-border: rgba(50, 49, 45, 0.4);
+  }
+}

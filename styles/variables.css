@@ -13,4 +13,5 @@
   --header-background: url('../images/cover-image-dark.png');
   --display-decoration: initial;
   --theme-button-border: rgba(255, 0, 112, 0.4);
+  --font: "IBM Plex mono", "Arial", sans-serif;
 }
