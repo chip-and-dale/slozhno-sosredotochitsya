@@ -21,7 +21,7 @@
 .decorated-zone::before {
   border-top: 1px solid var(--accent-color);
   border-right: 1px solid var(--accent-color);
-  content: '';
+  content: "";
   width: 25px;
   height: 25px;
   position: absolute;
@@ -32,7 +32,7 @@
 .decorated-zone::after {
   border-bottom: 1px solid var(--accent-color);
   border-left: 1px solid var(--accent-color);
-  content: '';
+  content: "";
   width: 25px;
   height: 25px;
   position: absolute;
@@ -42,7 +42,7 @@
 
 .header__decoration-text {
   position: absolute;
-  color: #FF0070;
+  color: #ff0070;
   display: var(--display-decoration);
   top: 20px;
   right: 30px;
@@ -51,10 +51,10 @@
 
 .header__decoration-text::after {
   display: inline-block;
-  content: '';
+  content: "";
   width: 9px;
   height: 9px;
-  background: #FF0070;
+  background: #ff0070;
   border-radius: 9px;
   margin-left: 10px;
   box-shadow: 0 0 4px 2px;
@@ -111,13 +111,13 @@
 .header__title {
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   text-transform: lowercase;
-  font-family: 'IBM Plex mono', 'Arial', sans-serif;
+  font-family: "IBM Plex mono", "Arial", sans-serif;
   font-weight: bold;
   align-self: center;
   grid-row: 2 / 3;
   grid-column: 1 / 3;
   color: var(--header-title);
-  text-shadow: 4px 4px #FF0070;
+  text-shadow: 4px 4px #ff0070;
 }
 
 .header__description {
@@ -267,24 +267,24 @@
 .footer__title {
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   text-transform: lowercase;
-  font-family: 'IBM Plex mono', 'Arial', sans-serif;
+  font-family: "IBM Plex mono", "Arial", sans-serif;
   font-weight: bold;
   align-self: center;
   grid-row: 2 / 3;
   grid-column: 1 / 3;
   color: var(--header-title);
-  text-shadow: 4px 4px #FF0070;
+  text-shadow: 4px 4px #ff0070;
 }
 
 @media (prefers-color-scheme: light) {
   .page.theme_auto {
-    --page-background: #FFF1F7;
-    --header-title: #FFC2E6;
+    --page-background: #fff1f7;
+    --header-title: #ffc2e6;
     --accent-color: #353430;
     --block-title: #353430;
-    --block-title-background: #FF8DCB;
+    --block-title-background: #ff8dcb;
     --block-text: #353430;
-    --header-background: url('../images/cover-image-light.png');
+    --header-background: url("../images/cover-image-light.png");
     --display-decoration: none;
     --theme-button-border: rgba(50, 49, 45, 0.4);
   }
@@ -293,12 +293,12 @@
 @media (prefers-color-scheme: dark) {
   .page.theme_auto {
     --page-background: #000028;
-    --header-title: #DB00FF;
-    --accent-color: #FF0070;
+    --header-title: #db00ff;
+    --accent-color: #ff0070;
     --block-title: #000028;
-    --block-title-background: #FF0070;
-    --block-text: #F1B2CE;
-    --header-background: url('../images/cover-image-dark.png');
+    --block-title-background: #ff0070;
+    --block-text: #f1b2ce;
+    --header-background: url("../images/cover-image-dark.png");
     --display-decoration: initial;
     --theme-button-border: rgba(255, 0, 112, 0.4);
   }
@@ -308,7 +308,7 @@
   .header__description {
     margin-block-end: 140px;
   }
-  
+
   .header__theme-menu {
     margin-block-start: 140px;
     margin-right: 20px;
@@ -331,7 +331,7 @@
 
   .gallery {
     grid-template-columns: 230px 1fr 1fr;
-}
+  }
 
   .gallery__picture:nth-of-type(5) {
     height: 100%;
