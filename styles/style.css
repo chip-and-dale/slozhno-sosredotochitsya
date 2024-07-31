@@ -148,6 +148,10 @@
   color: var(--accent-color);
 }
 
+.section__title {
+  line-height: 23.37px;
+}
+
 .section__title_background {
   color: var(--block-title);
   background: var(--block-title-background);
@@ -213,6 +217,7 @@
   background: var(--block-title-background);
   font-size: 18px;
   font-weight: normal;
+  line-height: 24px;
 }
 
 .section__recommendations-item-text {
